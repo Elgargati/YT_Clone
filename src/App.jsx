@@ -13,7 +13,7 @@ const App = () => {
   const [favorites, setFavorites] = useState([]);
 
   useEffect(() => {
-    handleSearch("React tutorials");
+    handleSearch("Laravel tutorials");
   }, []);
 
   const handleSearch = async (query) => {
